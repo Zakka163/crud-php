@@ -15,7 +15,9 @@ class Person{
     public function const(){
         echo "ini const = ".self::HUMANS.PHP_EOL;
     }
-    
+    public function test(){
+        echo "ini test";
+    }
 }
    
 //echo Person::HUMANS;
